@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>DNSPOD DNS over TLS</string>
+			<key>PayloadDescription</key>
+			<string>Configures device to use DNSPOD Encrypted DNS over TLS</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.dnsSettings.managed.9D86321D-C2C3-365A-8448-5D76FF8CBFC6</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>0FEDCB81-3C3D-6602-B92E-12EE51DBAEE6</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>TLS</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>162.14.21.178</string>
+					<string>119.29.29.29</string>
+				</array>
+				<key>ServerName</key>
+				<string>dns.pub</string>
+			</dict>
+			<key>ProhibitDisablement</key>
+			<false/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Adds the DNSPOD DNS to Big Sur and iOS 14 based systems</string>
+	<key>PayloadDisplayName</key>
+	<string>DNSPOD Encrypted DNS over TLS</string>
+	<key>PayloadIdentifier</key>
+	<string>Xiao-Mac.C0FC3592-F890-49CC-9365-05FE6820998C</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>9877ACF2-321D-4E26-B1B2-96C8EE88AE98</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
